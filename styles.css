@@ -1,0 +1,73 @@
+body{
+    background: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.page{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    min-height:1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin:50px;
+}
+
+.page .pageleft{
+    position: relative;
+    background-color: rgb(193, 185, 236);
+    padding: 40px;
+}
+
+.page .pageright{
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding:40px;
+}
+
+img{
+    height: 115px;
+    width: 115px;
+    border-radius: 105px;
+}
+
+.phone{
+    padding:auto;
+}
+
+.address{
+   font-size:large;
+   font-weight: 500;
+}
+
+.education h4 p{
+    font-weight: bolder;
+    padding:auto;
+    height: 25px;
+}
+
+.language{
+    padding:auto;
+}
+
+.about{
+    font-weight: lighter;
+}
+
+.work{
+    padding:auto;
+    font-weight: lighter;
+}
+
+b{
+    font-size: medium;
+}
+
+.project{
+    padding: auto;
+
+}
+
